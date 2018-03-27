@@ -1,4 +1,6 @@
 # osxlockdown
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faccidentalmeme%2Fosxlockdown.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faccidentalmeme%2Fosxlockdown?ref=badge_shield)
+
 osxlockdown was built to audit, and remediate, security configuration settings on OS X 10.11 (El Capitan).  
 
 This checks, and if requested will flip, various configuration settings. Many are simply stripping out features to reduce the attack surface.  You may not like this.  This is a compilation of numerous resources listed in the Resources section which could be converted to bash scripts.  This is different than those resources in that instead of requiring the user to read a 100+ page doc, click through numerous GUIs, and try to decide if some esoteric output is good or bad, this tool combines all the steps into a single command. This tool is focused on enterprise deployments of OSX with regard to what it does, but made to be usable for stand-alone home users as well.
@@ -112,3 +114,7 @@ FAQ for specific features
 - *Why are you crippling Safari?*
     - I personally run Chrome and I cripple it in the same way I am crippling Safari here.  I do believe Chrome is more secure though.  One reason is they build most of the main components Safari is made from anyway, so they have more expertise with it.  Another reason is they have discovered more security problems than Safari's team has, for example, they [detected](https://googleonlinesecurity.blogspot.com/2011/08/update-on-attempted-man-in-middle.html) Diginotar had been compromised and had issued a certificate to MiTM users.
  
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faccidentalmeme%2Fosxlockdown.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faccidentalmeme%2Fosxlockdown?ref=badge_large)
